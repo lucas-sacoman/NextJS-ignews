@@ -1,0 +1,28 @@
+# Instalando Next
+yarn create next-app ignews
+yarn add typescript @types/react @types/node -D
+yarn add sass
+yarn add react-icons
+yarn add stripe
+
+# Backend no frontend
+yarn add next-auth
+yarn add @types/next-auth -D
+yarn add faunadb
+yarn add axios
+yarn add @stripe/stripe-js
+yarn add react-toastify //Instalei pq não consigo dar um alert()
+
+# Instalar CLI do Stripes
+stripe login
+stripe listen --forward-to localhost:3000/api/webhooks
+
+#Instalar o PRISMIC
+yarn add @prismicio/client
+yarn add prismic-dom
+yarn add @types/prismic-dom -D
+
+# Testes automatizados
+yarn add jest jest-dom @testing-library/jest-dom @testing-library/dom @testing-library/react babel-jest -D
+yarn add identity-obj-proxy -D
+yarn add ts-jest -D
